@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+    background: white;
+    height: 10%;
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav li{
+    padding:0.5rem 1rem;
+}
+li{
+    list-style: none;
+    padding:0.5rem;
+    border-color: #f0f0f0;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo a{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.content{
+    background-blend-mode: overlay;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-background-texture.jpg), linear-gradient(180deg, #474ab6 0%, #9271f6 100%) !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+
+}
+.header{
+    background-blend-mode: overlay;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-background-texture.jpg), linear-gradient(180deg, #474ab6 0%, #9271f6 100%) !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content.about{
+    background: white;
+    color: black !important;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+#content-paragraph{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    margin-right: 3rem;
+}
+.pagetitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #eee;
+    padding: 1.5rem;
+}
+.pagetitle p{
+    font-size: 1.5rem;
+    padding: 0;
+    text-align: center;
+}
+.header h1{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+h1{
+    font-size: 1.7rem !important;
+}
+h2{
+    font-size: 1.7rem !important;
+}
+#content-paragraph h2{
+    padding: 2rem 1rem;
+    color: white;
+    font-size: 1.4rem;
+}
+#content-paragraph p{
+    padding: 2rem 1rem;
+    color: #eaeaea;
+    font-size: 1rem;
+}
+.content.about #content-paragraph p{
+    padding: 2rem 1rem;
+    color: #666666;
+    font-size: 1rem;
+}
+.content-image img{
+    width: 520px;
+    margin-right: 1rem;
+}
+.header i{
+    font-size: 1.5rem;
+    background: #9271f6;
+    height: 100%;
+    padding: 1rem;
+}
+button{
+    border-radius: 100px;
+    font-size: 16px;
+    color: white;
+    background-color: #09e1c0;
+    border-width: 10px !important;
+    border-color: #09e1c0;
+    letter-spacing: 1px;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    padding-right: 2em;
+    padding-left: 0.7em;
+    width: 50%;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.instCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 530px;
+    padding: 0.2rem 0.6rem;
+    align-items: center;
+    box-shadow: 5px 5px 45px 5px #e3e3e3;
+    margin: 2rem 3rem;
+    
+}
+.instcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    padding: 0.2rem 0.6rem;
+    align-items: center;
+    margin: 2rem 3rem;
+    
+}
+.instcard p{
+    text-align: center;
+}
+.instcard h6{
+    color: #5f5f5f;
+    padding: 1rem;
+}
+.instcard img{
+    margin: 1rem 0.2rem;
+}
+.cardImage{
+    margin: 1rem 0;
+    margin-right: 0.5rem;
+}
+footer{
+    background-color: #00001f;
+    color: white;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 span{
+    color: white;
+    font-size: 1.1rem !important;
+}
+@media (max-width: 1177px) {
+    nav{
+        padding: 1rem 1rem;
+    }
+    .content-image img{
+        display: none;
+    }
+    #content-paragraph{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1rem;
+        height: 100%;
+    }
+    *{
+        font-size: 16px;
+    }
+    .card{
+        margin: 2rem 0.5rem;
+    }
+}

@@ -163,4 +163,9 @@
     </footer>
 </body>
 <script src="./js/main.js"></script>
+<script>
+    if("serviceWorker" in navigator){
+      navigator.serviceWorker.register("sw.js")
+    }
+  </script>
 </html>
